@@ -1,0 +1,14 @@
+name = "CUSA"
+uuid = "80468b62-4fa0-4f1c-92df-29a2cd0ca3ba"
+authors = ["Wolfhart Feldmeier <wolfhart.feldmeier@uni-jena.de>"]
+version = "0.1.0"
+
+[deps]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
